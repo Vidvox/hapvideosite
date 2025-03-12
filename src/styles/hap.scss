@@ -617,7 +617,7 @@ section.integrations {
     padding: 60px 10.5263157895%;
     .hap-flavors {
         @include grid-list($v_padding: 20px, $gutter_size: 24px, $max_cell_size: 260px, $cell_padding: 48px 48px 42px, $text_align: left);
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         @media (max-width: 1024px) {
             grid-template-columns: 1fr;
         }
